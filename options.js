@@ -1,5 +1,3 @@
-const EVACUATION_INFO = require('./message')
-
 module.exports = {
   cityOptions: {
      reply_markup: JSON.stringify({
@@ -36,7 +34,7 @@ module.exports = {
  againOptions: {
      reply_markup: JSON.stringify({
          inline_keyboard: [
-             [{text: 'Обрати інший регіон.', callback_data: '/again'}],
+             [{text: 'Обрати регіон.', callback_data: '/again'}],
          ]
      })
  }
